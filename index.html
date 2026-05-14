@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tickets4u</title>
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <section id="background">
+        <img src="logo.PNG" class="logo">
+        <div class="banner-text">
+            <h1 class="neons col-12"><em>Tickets4u</em></h1>
+            <p>Hosting Events Like No Others</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Login</a>
+                <a href="#"><span></span>SignUp</a>
+            </div>
+        </div>
+    </section>
+    <div id="Navbar">
+        <nav>
+            <ul>
+                <li><a href="#background">Home</a></li>
+                <li><a href="#Tickets">Tickets</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#Support">Support</a></li>
+            </ul>
+        </nav>
+    </div>    
+    <div id="menuBtn">
+        <img src="menu button.png" id="menu">
+    </div>
+
+    <!--Tickets-->
+
+    <section id="Tickets">
+        <div class="title-text">
+            <p>TICKETS</p>
+            <h1>Upcoming Events</h1>
+        </div>
+        <div class="search-container">
+            <div class="search">
+                <div class="icon"></div>
+                <div class="input">
+                    <input type="text" placeholder="Search Events" id="mysearch">
+                </div>
+                <span class="clear" onclick="document.getElementById('mysearch').value=''"></span>
+            </div>
+        </div>
+        
+        <div align="center">
+            <div>
+                <div class="container">
+                    <img src="event1.PNG" alt="Event1" class="image">
+                    <div class="overLay overLayFade">
+                        <div class="text"><a href="#"><span></span>Buy Now</a></div>
+                    </div>                
+                </div>
+                <div class="container">
+                    <img src="event2.PNG" alt="Event2" class="image">
+                    <div class="overLay overLayFade">
+                        <div class="text"><a href="#"><span></span>Buy Now</a></div>
+                    </div>                
+                </div>
+                <div class="container">
+                    <img src="event3.PNG" alt="Event3" class="image">
+                    <div class="overLay overLayFade">
+                        <div class="text"><a href="#"><span></span>Buy Now</a></div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Us-->
+
+    <section id="AboutUs">
+        <div class="title-text">
+            <p>ABOUT US</p>
+            <h1>All You Need To Know</h1>
+        </div>
+        <div class="AboutUs-Box">
+            <div class="aboutus">
+                <h1>Who We Are</h1>
+                <div class="AboutUs-Desc">
+                    <div class="aboutus-icon">
+                        <i class="fa fa-chevron-circle-right"></i>
+                    </div>
+                    <div class="AboutUs-text">
+                        <p>We are a passionate team of organizing events dedicated to bringing your ideas to life.</p>
+                    </div>
+                </div>
+                <h1>Our Values</h1>
+                <div class="AboutUs-Desc">
+                    <div class="aboutus-icon">
+                        <i class="fa fa-certificate"></i>
+                    </div>
+                    <div class="AboutUs-text">
+                        <p>At the heart of Tickets4u lies a commitment to excellence and innovation. We believe in delivering perfection in every detail of your event. Our collaborative approach ensures your vision takes center stage.</p>
+                    </div>
+                </div>
+                <h1>What We Offer</h1>
+                <div class="AboutUs-Desc">
+                    <div class="aboutus-icon">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="AboutUs-text">
+                        <p>Our expert team coordinates with trusted vendors and manages entertainment and logistics, ensuring your event runs smoothly from start to finish. Whatever the occasion, we are here to turn your dream event into reality.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aboutus-img">
+                <img src="aboutus pic.PNG">
+            </div>
+        </div>
+    </section>
+
+    <!--Support-->
+
+    <section id="Support">
+        <div class="title-text">
+            <p>Support</p>
+            <h1>Connect With Us</h1>
+        </div>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Send Your Request</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input class="text1" type="text" placeholder="Ali Khan">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input class="text1" type="text" placeholder="+92 4538399294">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input class="text1" type="text" placeholder="example@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input class="text1" type="text" placeholder="Event Name">
+                        </div>
+                    </div>
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach Us</h3>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>tickets4u@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>1515 4532 2955</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>Block#25,Ground Floor,Main Margalla Road<br>
+                            E-9/2, Islamabad Capital Territory
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Office Timings</td>
+                        <td>8AM-4PM(Monday To Thursday)<br>
+                            9AM-2PM(On Saturdays)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Our Socials</td>
+                        <td class="social-links">
+                            <i id="icon1" class="fa fa-facebook"></i>
+                            <i id="icon2" class="fa fa-instagram"></i>
+                            <i id="icon3" class="fa fa-twitter"></i>
+                            <i id="icon4" class="fa fa-youtube"></i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+            <div class="footerbottom">
+                <p>Copyright &copy;2024; Designed By <span class="Designer">Mahareeb</span></p>
+            </div>
+    </footer>
+   
+    <script>
+        var menuBtn= document.getElementById("menuBtn")
+        var menu= document.getElementById("menu")
+        var Navbar= document.getElementById("Navbar")
+        Navbar.style.right="-250px"
+        menuBtn.onclick=function()
+        {
+            if(Navbar.style.right == "-250px")
+        {
+            Navbar.style.right="0"
+            menu.src="close button.png"
+        }
+        else
+        {
+            Navbar.style.right = "-250px"
+            menu.src="menu button.png"
+        }
+        }
+        var scroll = new SmoothScroll('a[href*="#"]', 
+        {
+	speed: 1000,
+	speedAsDuration: true
+});
+const icon= document.querySelector('.icon');
+        const search= document.querySelector('.search');
+        icon.onclick=function(){
+            search.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
